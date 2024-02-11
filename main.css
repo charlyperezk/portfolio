@@ -1,3 +1,7 @@
+html{
+    background: black;
+}
+
 button{
     background-color: #1b2b3b;
     color: white;
@@ -31,7 +35,7 @@ a{
 
 body{
     font-family: 'Courier New';
-    border: 5px white solid;
+    border: 1px white solid;
     border-radius: 10px;
 }
 
