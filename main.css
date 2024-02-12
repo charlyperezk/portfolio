@@ -67,7 +67,11 @@ nav{
 
 .options a:hover,
 a h1:hover{
-    color: #abadbf;
+    color: #c1f099;
+}
+
+.focus{
+    color: #c1f099;
 }
 
 .options a:hover{
@@ -82,8 +86,12 @@ a h1:hover{
     color: white;
 }
 
-.title{
-    margin: 10px;
+.welcome-title{
+    color: #c1f099;
+}
+
+.title, .welcome-title{
+    margin-bottom: 30px;
 }
 
 .card {
@@ -98,8 +106,9 @@ a h1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid  #ffffff;
     color: rgb(255, 255, 255);
+    background: #0c0c0c;
+    border: 1px solid white;
 }
 
 .card-content-nob{
@@ -160,9 +169,49 @@ object-fit: cover;
     .sec-section{
         margin-bottom: 30px;
 }
+    .welcome-title{
+        margin: 10px 20px 0px;
+        min-width: 20px;
+    }
 
 }
 
 .about-h2{
     text-decoration: underline;    
+}
+
+.project-route{
+    color: #c1f099;
+}
+
+.project-desc{
+    flex:60%;
+    padding: 15px;
+}
+.project-info {
+    flex: 20%;
+}
+
+.action{
+    flex:20%;
+    margin-bottom: 15px;
+}
+
+.card button{
+    background: #ffffff;
+    color: black;
+    border: none;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .card-content{
+        flex-direction: column;
+        background: #0c0c0c;
+        padding-bottom: 15px;
+    }
+    .action{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
 }

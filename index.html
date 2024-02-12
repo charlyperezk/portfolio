@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,54 +9,139 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
 
     <header>
         <nav>
             <div class="options">
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <a href="#me">About Me</a>
+                <a href="#project-info">Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
     </header>
     <hr>
     <main>
         <div class="container">
-
             <div class="card">
                 <div class="card-content">
-                    <h1 class="title">Welcome to my Portfolio Web! 🙋‍♂️</h1>
+                    <h1 class="welcome-title">Welcome to my Portfolio Web!</h1>
                 </div>
-            </div> 
-            <h2><span class="about-h2">About me:</span> 👇</h2>
+            </div>
+            <!-- <h2><span class="about-h2">About me:</span> 👇</h2> -->
             <div class="card">
                 <div class="card-content-nob">
-                    <div class="first-section">
+                    <!-- <div class="first-section">
                         <div class="contenedor-circulo">
                             <img src="yo.jpg" alt="Foto de perfil" class="imagen-perfil">
                         </div>
-                    </div>
-                    <div class="sec-section">
+                    </div> -->
+                    <div id="me" class="sec-section">
                         <h2 class="me">
-                            I'am Carlos Pérez Küper
+                            I'am <span class="focus">Carlos Pérez Küper</span>
                         </h2>
                         <h3><strong>Backend Developer and Data Analyst.</strong></h3>
                         <p>
-                            I was born in Buenos Aires, Argentina, at 1997. 
+                            I was born in Buenos Aires, Argentina, at 1997.
                             Actually living in <strong>Benalmádena, Spain.</strong>
                         </p>
                         <p>
-                            Since childhood, I have been interested in technology. My first contact with 
-                            it was through the computer that my father gave me when I was 8 years old. From then 
+                            Since childhood, I have been interested in technology. My first contact with
+                            it was through the computer that my father gave me when I was 8 years old. From then
                             programming languages came when my parents bought me an old PC with Windows XP installed.
                         </p>
-                        </div>
-                        
+                    </div>
+
                 </div>
-            </div> 
-            <hr class="card-separator">        
-        </div>
+            </div>
+
+            <hr class="card-separator">
+
+            <div id="project-info" class="card">
+                <h2 class="title">Projects</h2>
+                <div class="card-content">
+                    <article>
+                        <div class="project-info">
+                            <a class="project-route" href="">
+                                <h3>
+                                    Meli's API Integration
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <p>
+                                Consist in a integration with the meli's api and an advantage search.
+                            </p>
+                        </div>
+                        <div class="action">
+                            <button><strong>+ Info</strong></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <article>
+                        <div class="project-info">
+                            <a class="project-route" href="">
+                                <h3>
+                                    Employees Data Analysis
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus nam aperiam
+                                consequatur. Vitae voluptatem accusamus et sequi? Alias, ducimus accusantium cupiditate
+                                ipsum, cumque tempora, nam amet neque facere dolor nulla!
+                            </p>
+                        </div>
+                        <div class="action">
+                            <button><strong>+ Info</strong></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <article>
+                        <div class="project-info">
+                            <a class="project-route" href="">
+                                <h3>
+                                    Holdings Tracker Application
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="project-desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus nam aperiam
+                                consequatur. Vitae voluptatem accusamus et sequi? Alias, ducimus accusantium cupiditate
+                                ipsum, cumque tempora, nam amet neque facere dolor nulla!
+                            </p>
+                        </div>
+                        <div class="action">
+                            <button><strong>+ Info</strong></button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <hr class="card-separator">
+
+            <div id="contact" class="card">
+                <h2 class="title">
+                    Contact 📲
+                </h2>
+                <div class="card-content">
+                    
+                </div>
+            </div>
     </main>
 </body>
-</html></html>
+
+</html>
+
+</html>
